@@ -39,7 +39,7 @@ const Loader = () => {
         variants={loaderVariants}
         animate={animation}
       ></motion.div>
-      <div onClick={() => cycleAnimation()}>Cycle Loader</div>
+      <div onClick={() => cycleAnimation()}>Cycle Loader click</div>
     </>
   );
 };
